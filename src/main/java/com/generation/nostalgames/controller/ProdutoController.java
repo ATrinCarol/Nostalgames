@@ -27,7 +27,7 @@ import com.generation.nostalgames.repository.ProdutoRepository;
 public class ProdutoController {
 
 	@Autowired
-	ProdutoRepository produtoRepository;
+	private ProdutoRepository produtoRepository;
 
 	@GetMapping
 	public ResponseEntity<List<Produto>> getAll() {

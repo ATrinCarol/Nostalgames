@@ -20,7 +20,7 @@ public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 
 //Seleciona valores maiores ou iguais do que o critério da consulta \/
 
-	public List<Produto> findByPrecoGreaterThanEqual(BigDecimal preco);
+	public List<Produto> findByPrecoGreaterThanEqual(BigDecimal Preco);
 
 //	public List <Produto> findAllByPrecoSave(BigDecimal preco);
 }
